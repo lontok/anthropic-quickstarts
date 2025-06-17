@@ -11,6 +11,10 @@ const RightSidebar = dynamic(() => import("@/components/RightSidebar"), {
   ssr: false,
 });
 
+function helloWorld() {
+  return "Hello World!";
+}
+
 export default function Home() {
   return (
     <div className="flex flex-col h-screen w-full">
